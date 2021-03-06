@@ -27,10 +27,10 @@
 
 ![Capture_3](https://user-images.githubusercontent.com/75266416/110215928-99846f00-7eac-11eb-807d-7e7bf8ae18dd.png)
 
-#### When the user click on refresh it shows again the authentication screen.
-
 #### If the user successfully authenticates a welcome message is displayed:
 ![Capture_4a](https://user-images.githubusercontent.com/75266416/110215932-9ab59c00-7eac-11eb-9095-8a73f02a6f52.png)
+
+#### When the user click on refresh it shows again the authentication screen.
 
 #### If the user canceled or failed the authentication the request to the API does not start and the accounts are not displayed:
 ![Capture_4b](https://user-images.githubusercontent.com/75266416/110215933-9b4e3280-7eac-11eb-8d96-228327ca46f2.png)
