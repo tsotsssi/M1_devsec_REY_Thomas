@@ -5,15 +5,21 @@
 
 
 ### - Explain how you ensure user is the right one starting the app
-
+#### When the application start, an authentication screen is displayed and the user must authenticate as if he wanted to unlock his phone.
+#### The authentication screen is the same as the default lock screen of the user.
+#### If it's a fingerprint authentication by default it will asks for his fingerprint, if it's a PIN authentication it will asks for his PIN code, etc...
 
 
 ### - How do you securely save user's data on your phone ?
-
+#### The accounts are just displayed when the user is succesfully authenticated, it does not store the accounts' data on the phone.
+#### Each time the user wants to refresh, it deletes the displayed accounts and asks again for authentication.
 
 
 ### - How did you hide the API url ?
-
+#### It is not possible to hide perfectly a string in the source code and make it impossible to find but I tried to make the reverse engineering very difficult.
+#### I encrypted the API url with an XOR function before release so the the API url is never stored in clear in the release source code.
+#### In the source code, the API url is an array of integer that must be decrypted with the correct key and the correct function to obtain the url string.
+#### I also obfuscated the code in the release apk to make the reverse engineering more difficult.
 
 
 ### - Screenshots of your application 
@@ -35,5 +41,5 @@
 #### If the user canceled or failed the authentication the request to the API does not start and the accounts are not displayed:
 ![Capture_4b](https://user-images.githubusercontent.com/75266416/110215933-9b4e3280-7eac-11eb-8d96-228327ca46f2.png)
 
-#### If the user successfully authenticates the accounts are displayed:
+#### If the user successfully authenticates the accounts are displayed and the user can scroll through:
 ![Capture_5](https://user-images.githubusercontent.com/75266416/110215934-9be6c900-7eac-11eb-8942-ab65ebd2d53a.png)
