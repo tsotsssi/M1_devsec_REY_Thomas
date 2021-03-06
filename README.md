@@ -1,18 +1,19 @@
-# M1_devsec_REY_Thomas
-Secure Android app to see bank accounts
-
-- Explain how you ensure user is the right one starting the app
+# M1 Secure Development : Mobile applications
+## M1_devsec_REY_Thomas
 
 
-
-- How do you securely save user's data on your phone ?
+# - Explain how you ensure user is the right one starting the app
 
 
 
-- How did you hide the API url ?
+# - How do you securely save user's data on your phone ?
 
 
 
-- Screenshots of your application 
+# - How did you hide the API url ?
+
+
+
+# - Screenshots of your application 
 
 
