@@ -39,5 +39,6 @@
 #### If the user canceled or failed the authentication the request to the API does not start and the accounts are not displayed:
 ![Capture_4b](https://user-images.githubusercontent.com/75266416/110215933-9b4e3280-7eac-11eb-8d96-228327ca46f2.png)
 #
-#### If the user successfully authenticates the accounts are displayed and the user can scroll through:
+#### If the user successfully authenticates an https request is made with the tls protocol to the API url.
+#### Then the accounts are displayed and the user can scroll through:
 ![Capture_5](https://user-images.githubusercontent.com/75266416/110215934-9be6c900-7eac-11eb-8942-ab65ebd2d53a.png)
